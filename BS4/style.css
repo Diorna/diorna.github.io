@@ -100,7 +100,8 @@ img {
 }
 #block2 h2:after{
     display: block;
-    width: 150px;
+    max-width: 150px;
+    min-width: 80px;
     height: 2px;
     background-color: #a95169;
     margin: 20px auto;
@@ -138,7 +139,8 @@ img {
 }
 #block3 h2:after{
     display: block;
-    width: 450px;
+    max-width: 450px;
+    min-width: 80px;
     height: 2px;
     background-color: #a95169;
     margin: 20px auto;
@@ -155,7 +157,8 @@ img {
 }
 #block4 h2:after{
     display: block;
-    width: 450px;
+    max-width: 450px;
+    min-width: 80px;
     height: 2px;
     background-color: #a95169;
     margin: 20px auto;
@@ -168,7 +171,8 @@ img {
 }
 #block4 .conteiner:after{
     display: block;
-    width: 600px;
+    max-width: 600px;
+    min-width: 80px;
     height: 2px;
     background-color: #a95169;
     margin: 20px auto;
