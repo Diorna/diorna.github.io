@@ -2,15 +2,24 @@
 body{
     width: auto;  
     margin: auto;
-    max-width:900px;
+    max-width:90%;
+    width:900px;
     /*border: 1px solid red;*/
     margin: 0 10 0 10;
     font-family: 'Arimo', sans-serif;
+    font-size: 16pt;
 }
-img{
-    width: 100%;
-    padding: 5px;
+img {
+  display: block;
+  height: auto;
+  padding: 5px;
 }
+@media (max-width: 768px) {
+    html {
+        font-size: 12pt;
+    }
+}
+
 .c {
     text-align: center !important;
 }
@@ -21,7 +30,6 @@ img{
     box-shadow: 1px 1px 3px grey;
     z-index: 1000;
     margin-top: 0px;
-    max-width: 900px;
     text-align: center;
 }
 
@@ -42,9 +50,7 @@ img{
 .btn-outline-danger.disabled,.btn-outline-danger:disabled{
     background-color:transparent
 }
-.tel{
-    font-size: 16pt;
-}
+
 #top-menu .navbar-brand:hover{
     color: #a95169;
 }
@@ -52,9 +58,7 @@ img{
     list-style: none;
     display: inline-block;
 }
-#top-menu .nav-link {
-    font-size: 16pt;
-}
+
 .navbar-nav .active>.nav-link,.navbar-light .navbar-nav .nav-link.active,.navbar-light .navbar-nav .nav-link.show,.navbar-light .navbar-nav .show>.nav-link{
     border-bottom: 2px solid #a95169;
     color: #a95169;
@@ -82,14 +86,10 @@ img{
 #block2{
     margin-top: 10px; 
     margin-left: auto;
-    max-width: 900px;
 }
-#block2 p{
-    max-width: 900px;
-    font-size: 16pt;
-}
+
 #block2 p:nth-child(4){
-    max-width: 900px;
+    
     font-size: 18pt;
     text-transform: uppercase;
     font-weight: bold;
@@ -110,26 +110,27 @@ img{
     background: url(images/fon.jpg) top center repeat;
     padding: 20px 0;
     margin-left: auto;
-    width:
 }
-#block2 .conteiner .fon-flow > div >div{
-     background-color: rgba(245, 245, 220, 0.8);
-     margin: 0 10px;
-     padding: 10px;
-    border-radius: 5px;
+#block2 .fon-flow > div {
+     background-color: rgba(245, 245, 220, 0.3);
+     margin: 6px;
+     padding: 5px;
+     border-radius: 5px;
+    max-width: 290px;
+    min-width: 290px;
 }
-#block2 .conteiner .fon-flow > div >div .header{
+#block2  .fon-flow > div .header{
      font-size: 17pt;
      color: #a95169;
 }
-#block2 .conteiner .fon-flow > div >div .price{
+#block2 .fon-flow >div .price{
      font-size: 2em;
      color: #392b22;
 }
 #block3{
     margin-top: 50px; 
     margin-left: auto;
-    max-width: 900px;
+    
 }
 #block3 h2{
     text-transform: uppercase;
@@ -146,15 +147,11 @@ img{
 #block4{
     margin-top: 10px; 
     margin-left: auto;
-    max-width: 900px;
 }
-#block4 p{
-    max-width: 900px;
-    font-size: 16pt;
-}
+
 #block4 h2{
     text-transform: uppercase;
-   font-weight: bold;
+    font-weight: bold;
 }
 #block4 h2:after{
     display: block;
@@ -165,7 +162,7 @@ img{
     content: ' ';
 }
 
-#block4 .conteiner .fon-flow > div >div .header{
+#block4 .conteiner .fon-flow>div .header{
      font-size: 17pt;
      color: #a95169;
 }
@@ -177,6 +174,7 @@ img{
     margin: 20px auto;
     content: ' ';
 }
+
 #contacts{
     text-align: left;
     font-size: 10pt;
@@ -199,6 +197,7 @@ img{
     left: 20px;
     display: none;
 }
+
 
 
 
