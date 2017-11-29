@@ -3,6 +3,7 @@ body{
     width: auto;  
     margin: auto;
     max-width:90%;
+    min-width:320px;
     width:900px;
     /*border: 1px solid red;*/
     margin: 0 10 0 10;
